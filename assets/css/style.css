@@ -81,5 +81,17 @@ body {
 .main__slides img {
   width: 100%;
 }
+.main__discover {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.main__discover img {
+  flex: 1;
+  max-width: 33%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

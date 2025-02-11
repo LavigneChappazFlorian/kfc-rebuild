@@ -85,4 +85,18 @@
             width: 100%;
         }
     }
+
+    &__discover {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        img {
+            flex: 1;
+            max-width: 33%;
+            height: auto;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
 }
