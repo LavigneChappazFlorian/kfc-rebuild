@@ -61,4 +61,25 @@ body {
   font-size: 1.5rem;
 }
 
+.main__choice {
+  padding: 1rem;
+  background-color: #202124;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.main__choice a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #e3022b;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main__slides img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

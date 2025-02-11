@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Library - Splide JS (Slides) !-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide-core.min.css" integrity="sha512-cSogJ0h5p3lhb//GYQRKsQAiwRku2tKOw/Rgvba47vg0+iOFrQ94iQbmAvRPF5+qkF8+gT7XBct233jFg1cBaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="assets/js/script.js"></script>
     <link rel="icon" href="assets/img/logo.jpeg">
     <title>KFC France</title>
 </head>
@@ -54,11 +57,28 @@
         </nav>
     </header>
     <main class="main">
-
+        <div class="main__choice">
+            <p>Pour commencer votre commande, sélectionner un restaurant <span><a href="">SÉLECTIONNER UN KFC</a></span>
+            </p>
+        </div>
+        <div class="main__slides">
+            <div class="splide is-team">
+                <div class="splide__track is-team">
+                    <div class="splide__list is-team">
+                        <div class="splide__slide is-team"><img src="assets/img/boxmaster-carrousel.jpg" alt="Photo offre boxmaster"></div>
+                        <div class="splide__slide is-team"><img src="assets/img/gratos.jpg" alt="Photo offre étudiante"></div>
+                        <div class="splide__slide is-team"><img src="assets/img/paddington.jpg" alt="Photo offre paddington"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!--- Importer Splide JS Autoscroll--->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 </body>
 
 </html>

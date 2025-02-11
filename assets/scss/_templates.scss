@@ -59,3 +59,30 @@
         }
     }
 }
+
+.main {
+    &__choice {
+        padding: 1rem;
+        background-color: variables.$dark-color;
+        text-align: center;
+        color: variables.$light-color;
+        font-size: 1rem;
+
+        a {
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            background-color: variables.$primary-color;
+            color: variables.$light-color;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    &__slides {
+        img {
+            width: 100%;
+        }
+    }
+}
