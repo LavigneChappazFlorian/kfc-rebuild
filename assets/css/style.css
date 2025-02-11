@@ -84,7 +84,7 @@ body {
 .main__discover {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .main__discover img {
   flex: 1;
@@ -92,6 +92,37 @@ body {
   height: auto;
   object-fit: cover;
   padding: 10px;
+}
+.main__club {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.main__club__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main__club__left span {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.main__club__left p {
+  font-size: 0.9rem;
+}
+.main__club__left a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #202124;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main__club__right img {
+  max-width: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */

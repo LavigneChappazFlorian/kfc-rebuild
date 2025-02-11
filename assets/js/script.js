@@ -13,6 +13,9 @@ function splideTeam() {
             arrows: false,
             pagination: false,
             autoplay: true,
+            autoScroll: {
+                speed: 5
+            },
             drag: true
         }).mount( window.splide.Extensions );
     }

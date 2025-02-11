@@ -69,14 +69,7 @@
         font-size: 1rem;
 
         a {
-            text-decoration: none;
-            padding: 5px 10px;
-            border: 1px solid transparent;
-            border-radius: 5px;
-            background-color: variables.$primary-color;
-            color: variables.$light-color;
-            font-size: 1rem;
-            font-weight: bold;
+            @include mixins.btn(variables.$primary-color, variables.$light-color);
         }
     }
 
@@ -89,7 +82,7 @@
     &__discover {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-evenly;
 
         img {
             flex: 1;
@@ -97,6 +90,38 @@
             height: auto;
             object-fit: cover;
             padding: 10px;
+        }
+    }
+
+    &__club {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+
+            a {
+                @include mixins.btn(variables.$dark-color, variables.$light-color);
+            }
+        }
+
+        &__right {
+            img {
+                max-width: 10rem;
+            }
         }
     }
 }

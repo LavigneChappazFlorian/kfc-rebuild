@@ -1,1 +1,12 @@
 @use "variables";
+
+@mixin btn($background, $color) {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: $background;
+    color: $color;
+    font-size: 1rem;
+    font-weight: bold;
+}
