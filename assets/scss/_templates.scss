@@ -80,6 +80,7 @@
     }
 
     &__discover {
+        padding: 10px 0;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-evenly;
@@ -94,6 +95,7 @@
     }
 
     &__club {
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -105,12 +107,12 @@
             gap: 20px;
 
             span {
-                font-size: 1.3rem;
+                font-size: 2rem;
                 font-weight: bold;
             }
 
             p {
-                font-size: .9rem;
+                font-size: 1rem;
             }
 
             a {
@@ -122,6 +124,21 @@
             img {
                 max-width: 10rem;
             }
+        }
+    }
+
+    &__offers {
+        padding: 10px 0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+        img {
+            flex: 1;
+            max-width: 33%;
+            height: auto;
+            object-fit: cover;
+            padding: 10px;
         }
     }
 }

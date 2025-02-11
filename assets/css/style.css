@@ -82,6 +82,7 @@ body {
   width: 100%;
 }
 .main__discover {
+  padding: 10px 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
@@ -94,6 +95,7 @@ body {
   padding: 10px;
 }
 .main__club {
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,11 +107,11 @@ body {
   gap: 20px;
 }
 .main__club__left span {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .main__club__left p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .main__club__left a {
   text-decoration: none;
@@ -123,6 +125,19 @@ body {
 }
 .main__club__right img {
   max-width: 10rem;
+}
+.main__offers {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.main__offers img {
+  flex: 1;
+  max-width: 33%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
