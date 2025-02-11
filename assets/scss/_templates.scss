@@ -1,0 +1,61 @@
+@use "mixins";
+@use "variables";
+
+.header {
+    padding: 1rem 0;
+    position: sticky;
+    border-bottom: 1px solid variables.$secondary-color;
+
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                height: 80px;
+                width: auto;
+            }
+
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: variables.$dark-color;
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        &__right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &__item {
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-decoration: none;
+                    color: variables.$dark-color;
+                    font-size: .7rem;
+                    font-weight: bold;
+                }
+
+                span {
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+    }
+}
