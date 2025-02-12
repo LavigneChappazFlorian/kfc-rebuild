@@ -7,9 +7,6 @@ Ce projet est une recréation du site web de KFC.
 - [Aperçu](#aperçu)
 - [Technologies utilisées](#technologies-utilisées)
 - [Installation](#installation)
-- [Structure du projet](#structure-du-projet)
-- [Contribuer](#contribuer)
-- [Licences](#licences)
 
 ## Aperçu
 
